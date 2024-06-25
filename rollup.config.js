@@ -8,7 +8,7 @@ export default [
 	{
 		input: 'index.js',
 		output: {
-			name: 'webTools',
+			name: 'webUtilsPlus',
 			file: pkg.browser,
 			format: 'umd'
 		},

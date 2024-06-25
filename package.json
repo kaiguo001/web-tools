@@ -1,10 +1,10 @@
 {
-  "name": "web-tools",
+  "name": "web-utils-plus",
   "description": "",
   "version": "1.0.0",
-  "main": "dist/web-tools.cjs.js",
-  "module": "dist/web-tools.esm.js",
-  "browser": "dist/web-tools.umd.js",
+  "main": "dist/web-utils-plus.cjs.js",
+  "module": "dist/web-utils-plus.esm.js",
+  "browser": "dist/web-utils-plus.umd.js",
   "type": "module",
   "scripts": {
     "build": "rollup -c",
@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaiguo001/web-tools.git"
+    "url": "git+https://github.com/kaiguo001/web-utils-plus.git"
   },
   "keywords": [
     "920118xk"
@@ -25,9 +25,9 @@
   "author": "kaiguo001",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kaiguo001/web-tools/issues"
+    "url": "https://github.com/kaiguo001/web-utils-plus/issues"
   },
-  "homepage": "https://github.com/kaiguo001/web-tools#readme",
+  "homepage": "https://github.com/kaiguo001/web-utils-plus#readme",
   "dependencies": {
     "ms": "^2.1.3"
   },
