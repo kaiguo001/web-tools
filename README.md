@@ -14,3 +14,25 @@ const date = new Datejs('2024-08-11').format('YYYY-MM-DD')
 | ss | 秒钟 | 30 |
 | dd | 星期 | 星期日 |
 
+# debounce/throttle
+```
+<template>
+    <div>
+        <div>{{ nums }}</div>
+        <button @click="handlerClick">click</button>
+    </div>
+</template>
+<script setup>
+import { debounce, throttle } from 'web-utils-plus'
+
+import { ref } from 'vue'
+const nums = ref(0)
+function handlerClick() {
+    debounce(()=> {
+        nums.value ++
+    }, 1000)
+    throttle(() => {
+        nums.value ++
+    },1000)
+}
+</script>
