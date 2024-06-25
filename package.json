@@ -1,0 +1,39 @@
+{
+  "name": "web-tools",
+  "description": "",
+  "version": "1.0.0",
+  "main": "dist/web-tools.cjs.js",
+  "module": "dist/web-tools.esm.js",
+  "browser": "dist/web-tools.umd.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "node test/test.js",
+    "pretest": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaiguo001/web-tools.git"
+  },
+  "keywords": [
+    "920118xk"
+  ],
+  "author": "kaiguo001",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaiguo001/web-tools/issues"
+  },
+  "homepage": "https://github.com/kaiguo001/web-tools#readme",
+  "dependencies": {
+    "ms": "^2.1.3"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.18.0"
+  }
+}
